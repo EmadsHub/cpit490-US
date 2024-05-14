@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee</title>
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Font Awesome CDN Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- External CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo">US-coffee <i class="fas fa-mug-hot"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#book">book</a>
+      </nav>
+
+      <a href="#book" class="btn">book a table</a>
+    </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>fresh coffee in the morning</h3>
+          <a href="#" class="btn">buy one now</a>
+        </div>
+
+        <div class="image">
+          <img src="image/home-img-1.png" class="main-home-image" alt="" />
+        </div>
+      </div>
+
+      <div class="image-slider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="image/home-img-1.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3 class="title">what's make our coffee special!</h3>
+          <p>
+            it always has been and will always be about quality. Our passion for
+            coffee is rivalled only by our love of sharing it. Whether you’re
+            sipping solo or hosting guests, enjoying coffee at home should be a
+            relaxing, soothing and soulful experience. With so many options to
+            choose from, it’s not difficult to find that perfect cup.
+          </p>
+          <a href="#" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="image/about-icon-1.png" alt="" />
+              <h3>quality coffee</h3>
+            </div>
+            <div class="icons">
+              <img src="image/about-icon-2.png" alt="" />
+              <h3>our branches</h3>
+            </div>
+            <div class="icons">
+              <img src="image/about-icon-3.png" alt="" />
+              <h3>free delivery</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu" id="menu">
+      <h1 class="heading">our menu</h1>
+
+      <div class="box-container">
+        <a class="box">
+          <img src="image/menu-1.png" alt="" />
+          <div class="content">
+            <h3>Cappuccino</h3>
+            <p>
+              Dark, rich espresso lies in wait under a smoothed and stretched
+              layer of thick milk foam. An alchemy of barista artistry and
+              craft.
+            </p>
+            <span>18SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Cappuccino"
+              data-price="18"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+
+        <a class="box">
+          <img src="image/menu-2.png" alt="" />
+          <div class="content">
+            <h3>Caramel Macchiato</h3>
+            <p>
+              Freshly steamed milk with vanilla-flavored syrup marked with
+              espresso and topped with a caramel drizzle for an oh-so-sweet
+              finish.
+            </p>
+            <span>16SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Caramel Macchiato"
+              data-price="16"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+
+        <a class="box">
+          <img src="image/menu-3.png" alt="" />
+          <div class="content">
+            <h3>Flat White</h3>
+            <p>
+              Smooth ristretto shots of espresso get the perfect amount of
+              steamed whole milk to create a not-too-strong, not-too-creamy,
+              just-right flavor.
+            </p>
+            <span>16SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Flat White"
+              data-price="16"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+
+        <a class="box">
+          <img src="image/menu-4.png" alt="" />
+          <div class="content">
+            <h3>Caffè Mocha</h3>
+            <p>
+              Our rich, full-bodied espresso combined with bittersweet mocha
+              sauce and steamed milk, then topped with sweetened whipped cream.
+              The classic coffee drink that always sweetly satisfies.
+            </p>
+            <span>18SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Caffè Mocha"
+              data-price="18"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+
+        <a class="box">
+          <img src="image/menu-5.png" alt="" />
+          <div class="content">
+            <h3>Caffè Misto</h3>
+            <p>
+              A one-to-one combination of fresh-brewed coffee and steamed milk
+              add up to one distinctly delicious coffee drink remarkably mixed.
+            </p>
+            <span>18SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Caffè Misto"
+              data-price="18"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+
+        <a class="box">
+          <img src="image/menu-6.png" alt="" />
+          <div class="content">
+            <h3>Caffè Latte</h3>
+            <p>
+              Our dark, rich espresso balanced with steamed milk and a light
+              layer of foam. A perfect milk-forward warm-up.
+            </p>
+            <span>14SAR</span>
+            <button
+              class="add-to-cart"
+              data-product="Caffè Latte"
+              data-price="14"
+            >
+              Add to cart
+            </button>
+          </div>
+        </a>
+      </div>
+      <section class="cart">
+        <h2 style="position: relative; left: 40%">Your Cart</h2>
+        <ul style="font-size: 20px" class="cart-items"></ul>
+        <p style="font-size: 25px" class="cart-total">
+          Total: SAR<span>0</span>
+        </p>
+        <button class="checkout-btn">Checkout</button>
+        <button class="print-btn">Print Receipt</button>
+      </section>
+    </section>
+    <!-- Add this HTML code after the "BOOK" section -->
+
+    <!-- REVIEW -->
+    <section class="review" id="review">
+      <h1 class="heading">reviews</h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/review1.png" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Just stumbled upon Coffee and what a find! The cozy atmosphere and
+              amazing brews make it an instant favorite. Can't wait to come back
+              for more!
+            </p>
+            <h3>queen elizabeth</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/review2.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              I'm blown away by the artistry at Coffee. The latte I had was not
+              only a visual delight but also the best coffee I've tasted. This
+              place is a must-visit for any coffee lover.
+            </p>
+            <h3>Elon Musk</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/review3.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              Found the perfect spot at Coffee to unwind with top-notch coffee.
+              The ambiance is so inviting, and their coffee has that exceptional
+              quality that warms you up.
+            </p>
+            <h3>isaac newton</h3>
+            <span>satisfied client</span>
+          </div>
+
+          <div class="swiper-slide box">
+            <i class="fas fa-quote-left"></i>
+            <i class="fas fa-quote-right"></i>
+            <img src="image/review4.jpg" alt="" />
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>
+              If you're into coffee, Coffee is a dream come true. The range of
+              flavors they offer is mind-boggling. Every cup tells a different
+              story. I'm hooked!
+            </p>
+            <h3>bill gates</h3>
+            <span>satisfied client</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book">
+      <h1 class="heading">booking</h1>
+
+      <form action="connect.php" method="POST">
+        <input
+          type="text"
+          placeholder="Name"
+          class="box"
+          name="FLname"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          class="box"
+          name="email"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z]+\.[a-zA-Z]{2,4}$"
+          title="Please enter a valid email address (e.g., example@example.com)"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          class="box"
+          name="email"
+          pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z]+\.[a-zA-Z]{2,4}$"
+          title="Please enter a valid email address with only letters in the domain (e.g., example@example.com)"
+          required
+        />
+        <input
+          type="time"
+          placeholder="time"
+          class="box"
+          name="time"
+          title="Enter The time of arrival"
+          required
+        />
+        <textarea
+          name="comment"
+          placeholder="Message"
+          class="box"
+          id=""
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="https://goo.gl/maps/MRpX8qFiHo7z6KBo8" target="_blank"
+            ><i class="fas fa-arrow-right"></i> Saudi Arabia</a
+          >
+          <a href="https://goo.gl/maps/k7scQQ8AEFLusjP28" target="_blank"
+            ><i class="fas fa-arrow-right"></i> UAE</a
+          >
+          <a href="https://goo.gl/maps/XivUnMvXYjVEbJ2T7" target="_blank"
+            ><i class="fas fa-arrow-right"></i> Bahrain</a
+          >
+          <a href="https://goo.gl/maps/sN88aZXETsthKGeV8" target="_blank"
+            ><i class="fas fa-arrow-right"></i> Qatar</a
+          >
+          <a href="https://goo.gl/maps/CUnEaYHFb5tgYBqCA" target="_blank"
+            ><i class="fas fa-arrow-right"></i> Kuwait</a
+          >
+          <a href="https://goo.gl/maps/vmc35ck1jna7wL2S9" target="_blank"
+            ><i class="fas fa-arrow-right"></i> Tunisia
+            <em><strong>Coming soon</strong></em></a
+          >
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-arrow-right"></i> home</a>
+          <a href="#about"><i class="fas fa-arrow-right"></i> about</a>
+          <a href="#menu"><i class="fas fa-arrow-right"></i> menu</a>
+          <a href="#review"><i class="fas fa-arrow-right"></i> review</a>
+          <a href="#book"><i class="fas fa-arrow-right"></i> book</a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"><i class="fas fa-phone"></i> +9665551231230</a>
+          <a href="#"><i class="fas fa-phone"></i> +9665551231231</a>
+          <a href="mailto:coffee@gmail.com"
+            ><i class="fas fa-envelope"></i> coffee@gmail.com</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook-f"></i> facebook</a
+          >
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fab fa-twitter"></i> twitter</a
+          >
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fab fa-instagram"></i> instagram</a
+          >
+          <a href="https://www.linkedin.com/" target="_blank"
+            ><i class="fab fa-linkedin"></i> linkedin</a
+          >
+        </div>
+      </div>
+
+      <div class="credit"> &COPY;</div>
+    </section>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS File Link  -->
+    <script src="js/script.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
